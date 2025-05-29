@@ -1,0 +1,124 @@
+:root {
+    /*    
+    // Tipografía
+    // <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 100 to 900
+    /*
+    .montserrat-<uniquifier> {
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+    }
+    */
+    /*
+    // <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 200 to 1000
+    /*
+    .nunito-sans-<uniquifier> {
+        font-family: "Nunito Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings:
+        "wdth" 100,
+        "YTLC" 500;
+    }
+    */
+    /*
+    .great-vibes-regular {
+        font-family: "Great Vibes", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+    */
+    /*
+    .bebas-neue-regular {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    */
+    /*
+    // <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 100 to 700
+    /*
+    .arima-<uniquifier> {
+        font-family: "Arima", system-ui;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+    }
+    */
+    --letra-nunito: Nunito, sans-serif;
+    --letra-great-vibes: 'Great Vibes', cursive;
+    --letra-arima-madurai: Arima, system-ui;
+    --letra-bebas: 'Bebas Neue', sans-serif;
+    --letra-montserrat: Montserrat, sans-serif;
+    --font-size-base: 0.9rem;
+    --line-height-base: 1.6;
+
+
+
+    /*Colores
+    *Mis Colores
+    */
+    /*Comunes*/
+    --blanco: #ddd;
+    --negro: #111;
+    /*Temas
+    //Planta Rosa Verde
+    */
+    --cafe-planta: #743023;
+    --rosa-planta: #dc3080;
+    --rosa-cl-planta: #f676b7;
+    --verde-cl-planta: #8eb65d;
+    --verde-planta: #4e6c00;
+
+    /*Neon*/
+    --rosa-neon: #fa448c;
+    --amarillo-neon: #fec859;
+    --verde-neon: #43b5a0;
+    --morado-neon: #491d88;
+    --negro-neon: #331a38;
+
+    /*Platano Rosa*/
+    --verde-platano: #3e5336;
+    --verde-cl-platano: #948f47;
+    --amarillo-platano: #f6da73;
+    --blanco-platano: #f6f5f0;
+    --rosa-platano: #e55b7e;
+
+    /*Foco Rosa*/
+    --amarillo-foco: #e9ff88;
+    --rosa-cl-foco: #fe0ab7;
+    --rosa-foco: #e50185;
+    --negro-foco: #111010;
+    --gris-foco: #d0ccd1;
+
+    /*Rosa Sandía*/
+    --rojo-sandia: #ff0659;
+    --rosa-sandia: #ff6aa1;
+    --rosa-cl-sandia: #ffbbef;
+    --verde-cl-sandia: #c7f0ee;
+    --verde-sandia: #005f3a;
+
+
+
+    /*
+    Tamaños Generales
+    */
+    --rem-1: 10rem;
+    --rem-2: 7rem;
+    --rem-3: 5rem;
+    --rem-4: 3.7rem;
+    --rem-5: 3rem;
+    --rem-6: 2.3rem;
+    --rem-7: 1.7rem;
+    --rem-8: 1.3rem;
+    --rem-9: 1rem;
+    --rem-10: 0.8rem;
+    --rem-11: 0.5rem;
+    --rem-12: 0.3rem;    
+}
+

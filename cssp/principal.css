@@ -1,0 +1,65 @@
+@import "./mis-variables.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--negro-neon);
+    color: var(--amarillo-neon);
+    font-family: var(--letra-nunito);
+    font-size: var(--rem-8);
+}
+header {
+    display: flex;
+    background-color: var(--morado-neon);
+}
+main {
+    width: 80vw;
+    padding: var(--rem-6);
+    margin: 0 auto;
+}
+
+
+
+.menu-horizontal {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+.menu-horizontal li {
+    list-style-type: none;
+    padding: 0 var(--rem-9);
+}
+.menu-horizontal a {
+    color: var(--rosa-neon);
+    text-decoration: none;
+}
+.menu-horizontal a:hover {
+    color: var(--verde-foco);
+    text-decoration: underline;
+}
+
+
+
+#logotipo {
+    width: 33.33vw;
+    display: flex;
+    align-items: center;
+}
+#logo {
+    font-family: var(--letra-bebas);
+    font-size: var(--rem-3);
+    padding: 0 var(--rem-9);
+    color: var(--verde-neon);
+}
+#logo-descripcion {
+    font-size: var(--rem-10);
+    width: var(--rem-2);
+    color: var(--verde-neon);
+}
+#menu-principal {
+    width: 66.66vw;
+}

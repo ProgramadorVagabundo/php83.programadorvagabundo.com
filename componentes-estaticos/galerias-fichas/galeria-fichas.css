@@ -1,0 +1,29 @@
+.galeria-fichas ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.galeria-fichas a {
+    text-decoration: none;
+}
+.galeria-fichas .ficha {
+    width: 350px;
+    margin: 1rem;
+}
+.galeria-fichas .ficha > .titulo {
+    font-size: var(--rem-8);
+    font-weight: 600;
+    border: 1px solid var(--negro-neon);
+    color: var(--rosa-neon);
+    background-color: var(--negro-neon);
+    padding: var(--rem-9);
+    height: 100px;
+    text-align: center;
+}
+.galeria-fichas .ficha > .descripcion {
+    border: 15px solid var(--negro-neon);
+    border-top: none;
+    height: 300px;
+    padding: var(--rem-9) var(--rem-7);
+    color: var(--blanco);
+}
